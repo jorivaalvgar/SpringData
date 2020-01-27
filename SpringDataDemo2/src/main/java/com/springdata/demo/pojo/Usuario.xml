@@ -1,0 +1,21 @@
+<entity-mappings version="1.0"   
+        xmlns="http://java.sun.com/xml/ns/persistence/orm"   
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm   
+        http://java.sun.com/xml/ns/persistence/orm_1_0.xsd ">  
+      
+    <entity class="com.springdata.pojo">  
+        <table name="usuario"></table>  
+        <attributes>  
+            <id name="identificacion">  
+                <column name="numeroID"/>  
+            </id>  
+            <basic name="nombre">  
+                <column name="nombre"/>  
+            </basic>  
+            <basic name="tipoId">  
+                <column name="tipoId"/>  
+            </basic>  
+        </attributes>  
+    </entity>  
+</entity-mappings>  
